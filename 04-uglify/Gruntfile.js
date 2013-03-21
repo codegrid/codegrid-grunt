@@ -4,13 +4,13 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     uglify: {
-      jquery: {
-        src: 'js/jquery.js',
-        dest: 'js/jquery.min.js'
+      foo: {
+        src: 'js/foo.js',
+        dest: 'js/foo.min.js'
       },
-      jqueryui: {
-        src: 'js/jquery-ui.js',
-        dest: 'js/jquery-ui.min.js'
+      bar: {
+        src: 'js/bar.js',
+        dest: 'js/bar.min.js'
       }
     }
   });
