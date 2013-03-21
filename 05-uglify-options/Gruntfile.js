@@ -1,11 +1,12 @@
 module.exports = function (grunt) {
 
-  grunt.task.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.initConfig({
     uglify: {
       options: {
-        preserveComments: 'some'
+        banner: '/* MY GREAT LIBRARY!! */',
+        preserveComments: false
       },
       jquery: {
         src: 'js/jquery.js',

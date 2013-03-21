@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
-  grunt.task.loadNpmTasks('grunt-contrib-sass');
-  grunt.task.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
     sass: {

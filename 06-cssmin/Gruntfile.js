@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-  grunt.task.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.initConfig({
     cssmin: {

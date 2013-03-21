@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-  grunt.task.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   grunt.initConfig({
     concat: {
